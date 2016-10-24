@@ -8,11 +8,11 @@ int main(){
 		printf("T%02d: ", i+1);
 		scanf("%d", &y); fflush(stdin);
 
-    if(i == 9){
+    		if(i == 9){
 			printf("=Game over\n");
 			break;
 		}
-    if(y < (x - 3))
+    		if(y < (x - 3))
 			printf("=Too samll\n");
 		else if(y > (x + 3))
 			printf("=Too large\n");
